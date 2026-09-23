@@ -1,0 +1,836 @@
+%PDF-1.3
+%뷔о
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1148
+>>
+stream
+0.200025 w
+0 G
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -5. re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.22 0.741 0.973 rg
+48. 740. Td
+(HARBORTECH SOLUTIONS) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 726. Td
+(Cloud Operations Support Practice) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 672. Td
+(IT 4560 � Week 03 Lab Submission) Tj
+ET
+BT
+/F2 24 Tf
+27.5999999999999979 TL
+0.886 0.941 0.984 rg
+48. 634. Td
+(Work Smarter: Systems Manager and S3) Tj
+T* (Static Website) Tj
+ET
+0.22 0.74 0.97 RG
+0.5 w
+48. 592. m
+564. 592. l
+S
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.886 0.941 0.984 rg
+48. 564. Td
+(Aakiyah Smith) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 546. Td
+(Student ID: 1488233) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 530. Td
+(Tuesday, September 22, 2026) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 40. Td
+(Governors State University � IT 4560: Introduction to Virtualization) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 26. Td
+(HarborTech Operations Playbook � Submitted via Blackboard Ultra) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4277
+>>
+stream
+0.5 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.22 0.741 0.973 rg
+48. 744. Td
+(SECTION 2: REFLECTION AND ANALYSIS) Tj
+ET
+0.22 0.74 0.97 RG
+0.3 w
+48. 740. m
+564. 740. l
+S
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.29 0.439 0.565 rg
+48. 726. Td
+(RESPONSE 1 -- Systems Manager Feature for Automating Weekly Maintenance) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 713. Td
+(The AWS Systems Manager Run Command capability is the best fit for Dana뭩 task because it allows HarborTech to run the same maintenance command) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 700. Td
+(on multiple EC2 instances without having to connect to each instance individually. Before the automation can work, the five EC2 instances must meet) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 687. Td
+(these prerequisites ,SSM Agent must be installed and running on each instance so Systems Manager can communicate with them, The instances must) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 674. Td
+(have the proper IAM permissions, usually through an IAM instance role, allowing Systems Manager to manage the instances, The instances need network) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 661. Td
+(connectivity to Systems Manager endpoints so they can communicate with the AWS service. HarborTech should verify that all five instances show as) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 648. Td
+(managed nodes in Systems Manager before running the maintenance command.) Tj
+ET
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.29 0.439 0.565 rg
+48. 625. Td
+(RESPONSE 2 -- Parameter Store and Centralizing Application Configuration) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 612. Td
+(Bright Path could use AWS Systems Manager Parameter Store to store the environment-specific value in one central location, such as) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 599. Td
+(/BrightPath/App/DatabaseEndpoint. Instead of having the database endpoint hardcoded in several files, the application or automation would retrieve the) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 586. Td
+(parameter by its name when it needs the value. The application or automation would need to be changed so it calls Parameter Store, such as by using the) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 573. Td
+(AWS SDK or AWS CLI, and requests the parameter by its name. It would then use the returned value instead of relying on the hardcoded value. Parameter) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 560. Td
+(Store does not automatically rewrite existing files. It only stores and provides the centralized value. The existing configuration files would still contain their) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 547. Td
+(original hardcoded values unless HarborTech specifically changes the application, automation, or configuration process to retrieve the parameter and) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 534. Td
+(update or replace those values.) Tj
+ET
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.29 0.439 0.565 rg
+48. 511. Td
+(RESPONSE 3 -- S3 Static Website Hosting and Workload Fit) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 498. Td
+(S3 static website hosting is an appropriate design for Bright Path because the page only needs to provide HTML, program hours, contact information,) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 485. Td
+(images, and downloadable public forms. These are static files that S3 can host without needing a web server or database. One future requirement that) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 472. Td
+(would make S3 static hosting insufficient is a donor portal that requires users to log in and access protected information. That would require server-side) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 459. Td
+(processing, authentication, and possibly a database, so Bright Path would need a different or expanded architecture.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 4849
+>>
+stream
+0.3 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.22 0.741 0.973 rg
+48. 744. Td
+(SECTION 3: LEARNER LAB INVESTIGATION DOCUMENTATION) Tj
+ET
+0.22 0.74 0.97 RG
+0.3 w
+48. 740. m
+564. 740. l
+S
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.29 0.439 0.565 rg
+48. 726. Td
+(S3 WEBSITE CONFIGURATION, CLI EVIDENCE, SANDBOX RESULTS, AND SYSTEMS MANAGER RECOMMENDATION) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 713. Td
+(I created a static webpage for Bright Path Community Services using an index.html file. The page includes the program hours, contact information, a short) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 700. Td
+(description of a Bright Path service, and information about public forms. The page does not contain real personal or confidential information.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 674. Td
+(S3 Bucket Information) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 648. Td
+(Bucket Name: brightpath-as-39483) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 622. Td
+(Region: us-west-2) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 596. Td
+(Object Key: index.html) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 570. Td
+(I uploaded the index.html file to the S3 bucket and enabled Static website hosting with index.html set as the index document.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 544. Td
+(Website Endpoint: http://brightpath-as-39483.s3-website-us-east-1.amazonaws.com/) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 518. Td
+(Website Access Test) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 492. Td
+(When I tested the S3 website endpoint) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 466. Td
+(Access was denied, the Learner Lab restricted the public-access configuration needed for the website to be publicly readable. I documented the restriction) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 453. Td
+(instead of attempting to bypass the sandbox controls. In a normal AWS account, the appropriate public-access configuration and permissions would need) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 440. Td
+(to be allowed for the website to be publicly accessible.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 414. Td
+(CLI Verification and Update) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 388. Td
+(I first verified my AWS identity in CloudShell using:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 362. Td
+(aws sts get-caller-identity) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 349. Td
+(The command returned my current AWS identity and confirmed that I was operating in the Learner Lab environment.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 323. Td
+(I then used the following command to upload or update the website files:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 297. Td
+(aws s3 sync ./brightpath-site s3://[YOUR-BUCKET-NAME]/) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 284. Td
+(HarborTech Recommendation for Dana) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 258. Td
+(Dana's repeated maintenance task across five EC2 instances is best handled with AWS Systems Manager Run Command. Run Command allows) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 245. Td
+(HarborTech to execute the same maintenance command consistently across multiple managed EC2 instances without connecting to each instance) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 232. Td
+(individually.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 206. Td
+(Before using Run Command, HarborTech should verify that the five EC2 instances are properly managed by Systems Manager. The SSM Agent must be) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 193. Td
+(installed and running, and the instances must have the appropriate IAM permissions through an instance role so Systems Manager can manage them. The) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 180. Td
+(instances also need connectivity to the required Systems Manager endpoints.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 154. Td
+(HarborTech should verify that all five instances appear as managed nodes before running the maintenance command. If an instance is not ready, the issue) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 141. Td
+(should be documented and corrected before relying on the automation.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 1857
+>>
+stream
+0.3 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.22 0.741 0.973 rg
+48. 744. Td
+(SECTION 4: HARBORTECH OPERATIONS PLAYBOOK ENTRY) Tj
+ET
+0.22 0.74 0.97 RG
+0.3 w
+48. 740. m
+564. 740. l
+S
+BT
+/F2 7 Tf
+8.0499999999999989 TL
+0.29 0.439 0.565 rg
+48. 726. Td
+(GITHUB PLAYBOOK ENTRY URL) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.886 0.941 0.984 rg
+48. 713. Td
+(https://github.com/Kiyahbee205/week3/blob/main/README.md) Tj
+ET
+0. 115. 230. 0.12 k
+52. 680. m
+560. 680. l
+562.2091389993231587 680. 564. 678.2091389993231587 564. 676. c
+564. 632. l
+564. 629.7908610006768413 561.7908610006768413 628. 560. 628. c
+52. 628. l
+49.7908610006768271 628. 48. 630.2091389993231587 48. 632. c
+48. 676. l
+48. 678.2091389993231587 50.2091389993231729 680. 52. 680. c
+h
+f
+0.22 0.74 0.97 RG
+0.4 w
+52. 680. m
+560. 680. l
+562.2091389993231587 680. 564. 678.2091389993231587 564. 676. c
+564. 632. l
+564. 629.7908610006768413 561.7908610006768413 628. 560. 628. c
+52. 628. l
+49.7908610006768271 628. 48. 630.2091389993231587 48. 632. c
+48. 676. l
+48. 678.2091389993231587 50.2091389993231729 680. 52. 680. c
+h
+S
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0.22 0.741 0.973 rg
+60. 664. Td
+(PLAYBOOK CONFIRMATION) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.886 0.941 0.984 rg
+60. 649. Td
+(Aakiyah Smith confirms that week03-systems-manager-s3.md has been published) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.886 0.941 0.984 rg
+60. 636. Td
+(to a public GitHub repository and is accessible at the URL above.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 40. Td
+(Governors State University  �  IT 4560: Introduction to Virtualization) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 26. Td
+(HarborTech Operations Playbook  �  Week 3  �  Submit to Blackboard Ultra) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+/F7 17 0 R
+/F8 18 0 R
+/F9 19 0 R
+/F10 20 0 R
+/F11 21 0 R
+/F12 22 0 R
+/F13 23 0 R
+/F14 24 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+25 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20260922212916-05'00')
+>>
+endobj
+26 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000012776 00000 n 
+0000014616 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000001320 00000 n 
+0000001425 00000 n 
+0000005754 00000 n 
+0000005859 00000 n 
+0000010760 00000 n 
+0000010866 00000 n 
+0000012851 00000 n 
+0000012977 00000 n 
+0000013108 00000 n 
+0000013242 00000 n 
+0000013380 00000 n 
+0000013504 00000 n 
+0000013633 00000 n 
+0000013765 00000 n 
+0000013901 00000 n 
+0000014029 00000 n 
+0000014156 00000 n 
+0000014285 00000 n 
+0000014418 00000 n 
+0000014520 00000 n 
+0000014869 00000 n 
+0000014955 00000 n 
+trailer
+<<
+/Size 27
+/Root 26 0 R
+/Info 25 0 R
+/ID [ <17F689149F347157A68542D88DD35FD0> <17F689149F347157A68542D88DD35FD0> ]
+>>
+startxref
+15059
+%%EOF
